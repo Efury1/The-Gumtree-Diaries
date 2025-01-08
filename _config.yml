@@ -2,7 +2,7 @@ title: The Gumtree Diaries
 description: > # this means to ignore newlines until "baseurl:"
    Welcome to my blog! I'm an Australian developer embarking on a new adventure as I move to the UK. Follow along as I share my journey, thoughts on tech, coding projects, and the challenges of starting fresh in a new country.  
 permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
