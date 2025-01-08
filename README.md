@@ -2,13 +2,16 @@
 
 ## About This Project
 
+
+![Gumtree Banner](assets/img/Gumtree-site.jpg)
+
 Welcome to my travel blog! This site serves as a personal diary documenting my journey of moving to the UK and living there. From the excitement of relocating to the challenges of adapting to a new culture, I share my experiences, tips, and stories as they unfold. This blog is a space for self-reflection, storytelling, and connecting with others who might be on a similar journey.
 
 ## Features
 
 - **Diary-Style Entries**: Regular posts about my experiences, thoughts, and adventures in the UK.  
 - **Stylish Design**: Enhanced with [Google Fonts](https://fonts.google.com/) and [Font Awesome](http://fontawesome.io/) icons for a modern look.  
-- **Interactive Comments**: Join discussions through the integrated [Disqus](https://disqus.com/) comment system.  
+- **Interactive Comments**: Join discussions through the integrated [Disqus](https://disqus.com/) comment system. (Would like to add in future)
 - **Emoji Support**: Add personality and emotion to posts with emoji support.  
 - **Future Posts Enabled**: Display scheduled posts, even if they’re dated in the future, for better planning.  
 
