@@ -5,13 +5,14 @@ layout: default
 <aside class="sidebar">
   <header>
     <div class="about">
-      <div class="cover-author-image">
-        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+      <div class="banner">
+        <img src="/assets/img/Gumtree.jpg" alt="Gumtree">
       </div>
-      <div class="author-name">{{site.author}}</div>
-      <p>{{site.about-author}}</p>
+      <h1>The Gumtree Diaries</h1>
+      <p>I am a full stack developer talking about their experience in and moving to the UK</p>
     </div>
-  </header> <!-- End Header -->
+  </header>
+   <!-- End Header -->
   <footer>
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
@@ -34,7 +35,7 @@ layout: default
         {% if site.social-email %}
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
         {% else %}
-          <li class="email"><a href="mailto:ejfury@protonmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+          <li class="email"><a href="mailto:ejfury"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
