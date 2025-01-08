@@ -3,7 +3,7 @@
 ## About This Project
 
 
-![Gumtree Banner](assets/img/Gumtree-site.jpg)
+![Gumtree Banner](assets/img/Gumtree_site.jpg)
 
 Welcome to my travel blog! This site serves as a personal diary documenting my journey of moving to the UK and living there. From the excitement of relocating to the challenges of adapting to a new culture, I share my experiences, tips, and stories as they unfold. This blog is a space for self-reflection, storytelling, and connecting with others who might be on a similar journey.
 
