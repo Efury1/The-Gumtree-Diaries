@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy Jekyll Site
 
 on:
   push:
@@ -6,23 +6,26 @@ on:
       - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout Code
+        uses: actions/checkout@v3
 
-    - name: Set up Jekyll
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: '2.7'
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: true
 
-    - name: Install dependencies
-      run: bundle install
+      - name: Install Dependencies
+        run: bundle install
 
-    - name: Build the site
-      run: bundle exec jekyll build
+      - name: Build Site
+        run: bundle exec jekyll build --baseurl="/The-Gumtree-Diaries"
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
