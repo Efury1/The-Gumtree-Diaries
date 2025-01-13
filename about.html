@@ -1,0 +1,86 @@
+---
+title: About Me
+layout: default
+permalink: /about/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Welcome to my blog! I'm an Australian developer embarking on a new adventure as I move to the UK. Follow along as I share my journey, thoughts on tech, coding projects, and the challenges of starting fresh in a new country.">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:site_name" content="The Gumtree Diaries">
+    <meta property="og:title" content="About Me - The Gumtree Diaries">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ '/about/' | absolute_url }}">
+    <meta property="og:description" content="Welcome to my blog! I'm an Australian developer embarking on a new adventure as I move to the UK. Follow along as I share my journey, thoughts on tech, coding projects, and the challenges of starting fresh in a new country.">
+    <meta property="og:image" content="{{ '/assets/img/about-banner.jpg' | relative_url }}">
+    
+    <!-- Twitter Metadata -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@FuryEliza">
+    <meta name="twitter:title" content="About Me - The Gumtree Diaries">
+    <meta name="twitter:description" content="Welcome to my blog! I'm an Australian developer embarking on a new adventure as I move to the UK. Follow along as I share my journey, thoughts on tech, coding projects, and the challenges of starting fresh in a new country.">
+    <meta name="twitter:image" content="{{ '/assets/img/about-banner.jpg' | relative_url }}">
+
+    <title>About Me - The Gumtree Diaries</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ '/assets/img/favicon/favicon.ico' | relative_url }}" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ '/assets/img/favicon/apple-touch-icon-72x72.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ '/assets/img/favicon/apple-touch-icon-144x144.png' | relative_url }}">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{ '/assets/fonts/font-awesome/css/font-awesome.min.css' | relative_url }}">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+<div class="wrapper">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <header>
+            <div class="about">
+                <h1>The Gumtree Diaries</h1>
+                <p class="profile-description">I am a full stack developer sharing my journey of moving to the UK.</p>
+                <nav class="profile-nav">
+                    <ul>
+                        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                        <li><a href="{{ '/about/' | relative_url }}">About Me</a></li>
+                    </ul>
+                </nav>
+                <a href="https://www.buymeacoffee.com/elizalikesp" target="_blank" class="buy-me-coffee">
+                    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee">
+                </a>
+            </div>
+        </header>
+    </aside>
+
+    <!-- Main Content -->
+    <main style="padding: 20px; max-width: 800px; margin: 0 auto; line-height: 1.8;">
+        <p>Hello! I'm Eliza Fury, a full-stack developer and an avid solo traveler, currently on a journey of a lifetime as I move to the UK. This blog is where I combine my love for exploration with my passion for sharing knowledge and experiences.</p>
+        <p>I created this space to share my adventures and provide practical advice for anyone looking to step out of their comfort zone, especially solo travelers. From tech and coding tips to travel hacks and destination guides, my goal is to make life a little easier for others while inspiring them to embrace new opportunities.</p>
+        <p>If you’re here for travel inspiration, advice, or just to follow my journey, I hope you’ll stick around and explore. And if you enjoy my content, you can support me by buying me a coffee—it helps keep this blog running and my adventures alive!</p>
+        
+        <!-- How I Travel Section -->
+        <section style="margin-top: 40px;">
+            <h2 style="text-align: center;">How I Travel</h2>
+            <p>I like to think of myself as an over-organized traveler—planning itineraries, researching destinations, and packing lists down to the smallest detail. However, I also leave room for spontaneity because sometimes the best experiences come from unplanned adventures.</p>
+            <p>My approach to travel is all about finding a balance between affordability and fun. I love seeking out budget-friendly activities that feel meaningful, whether that’s wandering through free museums, hiking scenic trails, or enjoying street food markets. I believe travel doesn’t have to be expensive to be enjoyable.</p>
+            <p>Ultimately, I aim to make the most out of every trip without breaking the bank, while creating memories that last a lifetime. Through my blog, I hope to share tips and tricks to help you do the same!</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer style="text-align: center; margin: 20px 0; font-size: 0.9em; color: #555;">
+        <a href="{{ '/' | relative_url }}">Back to Home</a>
+    </footer>
+</div>
+</body>
+</html>
